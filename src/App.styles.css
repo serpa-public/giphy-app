@@ -1,0 +1,37 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.Root {
+  padding: 40px;
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+  min-height: 100vh;
+}
+
+.App {
+  width: 100%;
+  max-width: 872px;
+  margin: 0 auto;
+}
+
+.Results {
+  padding-top: 40px;
+}
+
+.Grid {
+  display: grid;
+  max-width: 100%;
+  grid-template-columns: 280px 280px 280px;
+  column-gap: 16px;
+  row-gap: 16px;
+}
+
+.Grid img {
+  width: 280px;
+  height: 280px;
+  background-color: black;
+  object-fit: contain;
+  border-radius: 32px;
+}
