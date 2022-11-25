@@ -43,7 +43,7 @@ function App() {
     <div className="Root">
       <div className="App">
         <Typography variant="h3" gutterBottom>
-          Lets search a giph for today! 💪
+          Lets search an awesome giph for today! 💪
         </Typography>
 
         <TextField
